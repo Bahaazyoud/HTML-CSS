@@ -1,0 +1,23 @@
+div {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(219, 65, 65);
+    border: 1px solid rgb(219, 65, 65);
+    border-radius: 50px;
+    margin: 30px;
+    animation-name: scale;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0)
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.5)
+    }
+}
