@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(202, 243, 245);
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    background-image: url(how-can-madara-uchiha-use-susanoo-when-he-does-not-have-2-mangekyou-abilities-in-his-eyes.jpg);
+    border: 5px solid rgb(95, 88, 88);
+    border-radius: 50%;
+    background-size: contain;
+    position: relative;
+    transition: 3s;
+    animation: bike 8s linear infinite;
+}
+
+@keyframes bike {
+    0% {
+        filter: blur(0);
+        left: 0%;
+    }
+    10% {
+        left: 20%;
+    }
+    20% {
+        left: 40%;
+    }
+    30% {
+        left: 60%;
+    }
+    40% {
+        left: 80%;
+    }
+    50% {
+        left: 100%;
+    }
+    60% {
+        filter: blur(1);
+        left: 80%;
+    }
+    70% {
+        left: 60%;
+    }
+    80% {
+        left: 40%;
+    }
+    90% {
+        left: 20%;
+    }
+    100% {
+        left: 0%;
+    }
+}
