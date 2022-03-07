@@ -1,5 +1,5 @@
 .container {
-    width: 100%;
+    width: 90%;
     height: 300px;
     display: flex;
     flex-wrap: wrap;
@@ -8,21 +8,21 @@
 
 @media only screen and (max-width: 480px) {
     img {
-        width: calc(90%/1);
+        width: calc(80%/1);
         height: 40vh;
     }
 }
 
 @media only screen and (min-width: 481px) and (max-width:768px) {
     img {
-        width: calc(90%/2);
+        width: calc(80%/2);
         height: 40vh;
     }
 }
 
 @media only screen and (min-width: 769px) {
     img {
-        width: calc(90%/3);
+        width: calc(80%/3);
         height: 40vh;
     }
 }
